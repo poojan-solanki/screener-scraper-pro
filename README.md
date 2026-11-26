@@ -110,7 +110,8 @@ npm install          # installs dependencies and builds dist/
 **Claude Code**
 
 ```bash
-# To add MCP in local scope paste below command so it only works when Claude is started from ~/screener-scraper-pro project folder.
+# To add MCP in local scope paste below command
+# It only works when Claude is started from ~/screener-scraper-pro project folder.
 claude mcp add screener -- node /path/to/screener-scraper-pro/dist/mcp.js
 
 # To use it from any folder, paste
